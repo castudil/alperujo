@@ -83,7 +83,9 @@ library(gsheet)
 url<-    "docs.google.com/spreadsheets/d/1GUEcKbZ-F_Ef0yenZUEtH3z5QhF-YBDvFDer7JJxPow"
 # you can get this id by selecting any cell in the sheet, right click-> get link for this cell-> copy  paste link and see the id in the url,
 
-
+### If interested you can take a look at details such as the source for the average values and the respective standard deviations
+### the tabulated data was included as suplementary material in the journal version of the paper.
+### https://docs.google.com/spreadsheets/d/1kMZ0vKpk2zIYVNq5jCb3VUUv-XzdQbvBkOvGFPOcTVA/edit?usp=sharing
 
 buildCorrelationMatrix <- function(url, sheet) {
   #install.packages("PerformanceAnalytics")
